@@ -7,9 +7,14 @@ body {
   color: white;
 }
 
-#title h1 {
+h1 {
   /* font: "Montserrat-Black"; */
   font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
   line-height: 1.5;
 }
 
@@ -20,10 +25,6 @@ body {
 #iphone {
   width: 60%;
   transform: rotate(25deg);
-}
-
-#features h3 {
-  font-family: "Montserrat black";
 }
 
 .container-fluid {
@@ -52,11 +53,21 @@ body {
   margin: 5% 3% 5% 0;
 }
 
-/* Icons */
+/* Features section */
+#features {
+  padding: 7% 15%;
+}
+
+#features h3 {
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
 .fa-check-circle,
 .fa-bullseye,
 .fa-heart {
   color: rgba(226, 74, 74, 0.726);
+  margin-bottom: 1rem;
 }
 
 .fa-check-circle:hover,
@@ -64,3 +75,37 @@ body {
 .fa-heart:hover {
   color: #ff4c68;
 }
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+
