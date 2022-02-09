@@ -107,5 +107,27 @@ h2 {
 }
 
 /* Pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
 
+#pricing .card {
+  padding: 3% 2%;
+}
 
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0px;
+}
+
+/* Footer */
+#footer {
+  background-color: #ff4c68;
+  color: white;
+  padding: 0px 8px;
+  margin-bottom: 0px;
+}
